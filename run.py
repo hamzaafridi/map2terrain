@@ -1,3 +1,4 @@
-from classes.utility import Utility
+from classes.map2terrain.map2terrain import Map2Terrain
 
-print(Utility.img2numpy("data/-0.2_0.5_2.jpg"))
+map = Map2Terrain(dataDirPath = "data/")
+map.prepareData()
